@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatheo Hotel - Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Hotel Jatheo</h1>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="rooms.html" class="nav-link">Rooms</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="signup.html" class="nav-link">Sign Up</a>
+                    <a href="profile.html" class="nav-link">Profile</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Make a Reservation</h1>
+                <p>Book your perfect stay at Jatheo Hotel</p>
+            </div>
+        </section>
+
+        <!-- Booking Form -->
+        <section class="features">
+            <div class="container">
+                <div class="feature-card">
+                    <h2>Guest Information</h2>
+                    <form>
+                        <div class="booking-row">
+                            <div class="booking-field">
+                                <label>First Name</label>
+                                <input type="text" name="firstName" required>
+                            </div>
+                            <div class="booking-field">
+                                <label>Last Name</label>
+                                <input type="text" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="booking-row">
+                            <div class="booking-field">
+                                <label>Email</label>
+                                <input type="email" name="email" required>
+                            </div>
+                            <div class="booking-field">
+                                <label>Phone</label>
+                                <input type="tel" name="phone" required>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="feature-card">
+                    <h2>Reservation Details</h2>
+                    <form>
+                        <div class="booking-row">
+                            <div class="booking-field">
+                                <label>Check-in Date</label>
+                                <input type="date" name="checkin" required>
+                            </div>
+                            <div class="booking-field">
+                                <label>Check-out Date</label>
+                                <input type="date" name="checkout" required>
+                            </div>
+                        </div>
+                        
+                        <div class="booking-row">
+                            <div class="booking-field">
+                                <label>Room Type</label>
+                                <select name="roomType" required>
+                                    <option value="">Select a room type</option>
+                                    <option value="single">Single Room - UGX 340,000/night</option>
+                                    <option value="double">Double Room - UGX 490,000/night</option>
+                                    <option value="suite">Luxury Suite - UGX 750,000/night</option>
+                                    <option value="deluxe">Deluxe Room - UGX 1,120,000/night</option>
+                                </select>
+                            </div>
+                            <div class="booking-field">
+                                <label>Number of Guests</label>
+                                <select name="guests" required>
+                                    <option value="">Select guests</option>
+                                    <option value="1">1 Guest</option>
+                                    <option value="2">2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4 Guests</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="booking-field">
+                            <label>Special Requests</label>
+                            <textarea name="specialRequests" rows="4" placeholder="Any special requirements or requests..."></textarea>
+                        </div>
+                        
+                        <div class="booking-field">
+                            <h3>Booking Summary</h3>
+                            <p>Room: Not selected</p>
+                            <p>Nights: 0</p>
+                            <p>Price per night: 0.00</p>
+                            <p><strong>Total: 0.00</strong></p>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Confirm Booking</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Important Information -->
+        <section class="popular-rooms">
+            <div class="container">
+                <h2>Important Information</h2>
+                <div class="rooms-preview">
+                    <div class="room-preview">
+                        <div class="room-image">🕐</div>
+                        <h3>Check-in Time</h3>
+                        <p>2:00 PM</p>
+                    </div>
+                    
+                    <div class="room-preview">
+                        <div class="room-image">🕑</div>
+                        <h3>Check-out Time</h3>
+                        <p>11:00 AM</p>
+                    </div>
+                    
+                    <div class="room-preview">
+                        <div class="room-image">🚗</div>
+                        <h3>Cancellation Policy</h3>
+                        <p>Free cancellation up to 24 hours before check-in</p>
+                    </div>
+                    
+                    <div class="room-preview">
+                        <div class="room-image">💳</div>
+                        <h3>Payment Methods</h3>
+                        <p>Credit Card, Debit Card, Cash</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hotel Jatheo</h3>
+                    <p>Your luxury home away from home</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 123 Hotel Street</p>
+                    <p>📞 +1 234 567 8900</p>
+                    <p>✉️ info@jatheohotel.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jatheo Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Room prices
+        const roomPrices = {
+            single: 340000,
+            double: 490000,
+            suite: 750000,
+            deluxe: 1120000
+        };
+
+        // Update booking summary
+        function updateBookingSummary() {
+            const roomType = document.querySelector('select[name="roomType"]').value;
+            const checkin = document.querySelector('input[name="checkin"]').value;
+            const checkout = document.querySelector('input[name="checkout"]').value;
+            
+            if (roomType && checkin && checkout) {
+                const price = roomPrices[roomType] || 0;
+                const nights = calculateNights(checkin, checkout);
+                const total = price * nights;
+                
+                document.querySelector('.booking-field p:nth-child(1)').textContent = 'Room: ' + roomType.charAt(0).toUpperCase() + roomType.slice(1) + ' - UGX ' + price.toLocaleString() + '/night';
+                document.querySelector('.booking-field p:nth-child(2)').textContent = 'Nights: ' + nights;
+                document.querySelector('.booking-field p:nth-child(3)').textContent = 'Price per night: UGX ' + price.toLocaleString();
+                document.querySelector('.booking-field strong').textContent = 'Total: UGX ' + total.toLocaleString();
+            }
+        }
+
+        function calculateNights(checkin, checkout) {
+            const checkinDate = new Date(checkin);
+            const checkoutDate = new Date(checkout);
+            const diffTime = Math.abs(checkoutDate - checkinDate);
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            return diffDays;
+        }
+
+        // Add event listeners
+        document.querySelector('select[name="roomType"]').addEventListener('change', updateBookingSummary);
+        document.querySelector('input[name="checkin"]').addEventListener('change', updateBookingSummary);
+        document.querySelector('input[name="checkout"]').addEventListener('change', updateBookingSummary);
+    </script>
+</body>
+</html>
