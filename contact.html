@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatheo Hotel - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Hotel Jatheo</h1>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="rooms.html" class="nav-link">Rooms</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                    <a href="signup.html" class="nav-link">Sign Up</a>
+                    <a href="profile.html" class="nav-link">Profile</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Get in touch with us for inquiries and assistance</p>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h2>Send us a Message</h2>
+                        <form action="profile.html" method="POST">
+                            <div class="booking-row">
+                                <div class="booking-field">
+                                    <label>First Name</label>
+                                    <input type="text" name="firstName" required>
+                                </div>
+                                <div class="booking-field">
+                                    <label>Last Name</label>
+                                    <input type="text" name="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="booking-field">
+                                <label>Email</label>
+                                <input type="email" name="email" required>
+                            </div>
+                            
+                            <div class="booking-field">
+                                <label>Phone</label>
+                                <input type="tel" name="phone" required>
+                            </div>
+                            
+                            <div class="booking-field">
+                                <label>Subject</label>
+                                <select name="subject">
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Information</option>
+                                    <option value="booking">Booking Question</option>
+                                    <option value="service">Service Request</option>
+                                    <option value="feedback">Feedback</option>
+                                </select>
+                            </div>
+                            
+                            <div class="booking-field">
+                                <label>Message</label>
+                                <textarea name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>Contact Information</h3>
+                        <p><strong>Address:</strong><br>123 Hotel Street<br>Downtown District<br>City, State 12345</p>
+                        <p><strong>Phone:</strong><br>+1 234 567 8900</p>
+                        <p><strong>Email:</strong><br>info@jatheohotel.com</p>
+                        <p><strong>Hours:</strong><br>Front Desk: 24/7<br>Restaurant: 6:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="popular-rooms">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="rooms-preview">
+                    <div class="room-preview">
+                        <h3>What time is check-in and check-out?</h3>
+                        <p>Check-in time is 2:00 PM and check-out time is 11:00 AM. Early check-in and late check-out may be available upon request.</p>
+                    </div>
+                    
+                    <div class="room-preview">
+                        <h3>Do you offer airport shuttle service?</h3>
+                        <p>Yes, we provide complimentary airport shuttle service. Please contact us at least 24 hours in advance to arrange your pickup.</p>
+                    </div>
+                    
+                    <div class="room-preview">
+                        <h3>Is parking available at the hotel?</h3>
+                        <p>We offer both valet and self-parking options. Valet parking is 25 per day, and self-parking is 15 per day.</p>
+                    </div>
+                    
+                    <div class="room-preview">
+                        <h3>Are pets allowed in the hotel?</h3>
+                        <p>Unfortunately, pets are not allowed in our hotel except for certified service animals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hotel Jatheo</h3>
+                    <p>Your luxury home away from home</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 123 Hotel Street</p>
+                    <p>📞 +1 234 567 8900</p>
+                    <p>✉️ info@jatheohotel.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jatheo Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
