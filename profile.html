@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatheo Hotel - Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Hotel Jatheo</h1>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="rooms.html" class="nav-link">Rooms</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="signup.html" class="nav-link">Sign Up</a>
+                    <a href="profile.html" class="nav-link active">Profile</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>My Profile</h1>
+                <p>Manage your account settings and preferences</p>
+            </div>
+        </section>
+
+        <!-- Profile Overview -->
+        <section class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">User</div>
+                        <h2>Welcome!</h2>
+                        <p>Your profile information will appear here</p>
+                        <p>Member since: --</p>
+                        
+                        <h3>Account Statistics</h3>
+                        <p>Total Bookings: 0</p>
+                        <p>Nights Stayed: 0</p>
+                        <p>Loyalty Points: 0</p>
+                        <p>Member Status: New</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>Personal Information</h3>
+                        <form>
+                            <div class="booking-field">
+                                <label>First Name</label>
+                                <input type="text" name="firstName" placeholder="Enter your first name">
+                            </div>
+                            
+                            <div class="booking-field">
+                                <label>Last Name</label>
+                                <input type="text" name="lastName" placeholder="Enter your last name">
+                            </div>
+                            
+                            <div class="booking-field">
+                                <label>Email Address</label>
+                                <input type="email" name="email" placeholder="Enter your email">
+                            </div>
+                            
+                            <div class="booking-field">
+                                <label>Phone Number</label>
+                                <input type="tel" name="phone" placeholder="Enter your phone number">
+                            </div>
+                            
+                            <button type="submit" class="btn-primary">Save Changes</button>
+                        </form>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>Notification Settings</h3>
+                        <form>
+                            <div class="booking-field">
+                                <label>
+                                    <input type="checkbox" name="emailNotifications" checked> Email Notifications
+                                </label>
+                            </div>
+                            <div class="booking-field">
+                                <label>
+                                    <input type="checkbox" name="smsNotifications"> SMS Notifications
+                                </label>
+                            </div>
+                            <div class="booking-field">
+                                <label>
+                                    <input type="checkbox" name="promotionalEmails" checked> Promotional Emails
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>Security Settings</h3>
+                        <form>
+                            <div class="booking-field">
+                                <label>Current Password</label>
+                                <input type="password" name="currentPassword">
+                            </div>
+                            <div class="booking-field">
+                                <label>New Password</label>
+                                <input type="password" name="newPassword">
+                            </div>
+                            <div class="booking-field">
+                                <label>Confirm New Password</label>
+                                <input type="password" name="confirmPassword">
+                            </div>
+                            <button type="submit" class="btn-primary">Update Password</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hotel Jatheo</h3>
+                    <p>Your luxury home away from home</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 123 Hotel Street</p>
+                    <p>📞 +1 234 567 8900</p>
+                    <p>✉️ info@jatheohotel.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jatheo Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
