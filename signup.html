@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatheo Hotel - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Hotel Jatheo</h1>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="rooms.html" class="nav-link">Rooms</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="signup.html" class="nav-link active">Sign Up</a>
+                    <a href="profile.html" class="nav-link">Profile</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Create Account</h1>
+                <p>Join Jatheo Hotel for exclusive offers</p>
+            </div>
+        </section>
+
+        <!-- Sign Up Form -->
+        <section class="features">
+            <div class="container">
+                <div class="feature-card">
+                    <h2>Sign Up</h2>
+                    <form action="profile.html" method="POST">
+                        <div class="booking-row">
+                            <div class="booking-field">
+                                <label>First Name</label>
+                                <input type="text" name="firstName" required>
+                            </div>
+                            <div class="booking-field">
+                                <label>Last Name</label>
+                                <input type="text" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="booking-field">
+                            <label>Email Address</label>
+                            <input type="email" name="email" required>
+                        </div>
+                        
+                        <div class="booking-field">
+                            <label>Phone Number</label>
+                            <input type="tel" name="phone" required>
+                        </div>
+                        
+                        <div class="booking-field">
+                            <label>Password</label>
+                            <input type="password" name="password" required>
+                        </div>
+                        
+                        <div class="booking-field">
+                            <label>Confirm Password</label>
+                            <input type="password" name="confirmPassword" required>
+                        </div>
+                        
+                        <div class="booking-field">
+                            <label>Address</label>
+                            <textarea name="address" rows="3" placeholder="Enter your full address"></textarea>
+                        </div>
+                        
+                        <div class="booking-field">
+                            <label>
+                                <input type="checkbox" name="newsletter"> Subscribe to newsletter
+                            </label>
+                        </div>
+                        
+                        <div class="booking-field">
+                            <label>
+                                <input type="checkbox" name="terms" required> I agree to Terms and Conditions
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Create Account</button>
+                    </form>
+                    
+                    <p>Already have an account? <a href="login.html" class="btn-secondary">Sign In</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits -->
+        <section class="popular-rooms">
+            <div class="container">
+                <h2>Member Benefits</h2>
+                <div class="rooms-preview">
+                    <div class="room-preview">
+                        <div class="room-image">🎁</div>
+                        <h3>Exclusive Offers</h3>
+                        <p>Get member-only discounts and special packages</p>
+                    </div>
+                    
+                    <div class="room-preview">
+                        <div class="room-image">⚡</div>
+                        <h3>Faster Booking</h3>
+                        <p>Skip forms and book rooms with one click</p>
+                    </div>
+                    
+                    <div class="room-preview">
+                        <div class="room-image">📋</div>
+                        <h3>Booking History</h3>
+                        <p>View and manage all your reservations</p>
+                    </div>
+                    
+                    <div class="room-preview">
+                        <div class="room-image">🏆</div>
+                        <h3>Loyalty Points</h3>
+                        <p>Earn points with every stay and redeem for free nights</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hotel Jatheo</h3>
+                    <p>Your luxury home away from home</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 123 Hotel Street</p>
+                    <p>📞 +1 234 567 8900</p>
+                    <p>✉️ info@jatheohotel.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jatheo Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
