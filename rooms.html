@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatheo Hotel - Rooms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Hotel Jatheo</h1>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="rooms.html" class="nav-link active">Rooms</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="signup.html" class="nav-link">Sign Up</a>
+                    <a href="profile.html" class="nav-link">Profile</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Rooms</h1>
+                <p>Choose from our selection of comfortable rooms</p>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="features">
+            <div class="container">
+                <h2>Filter Rooms</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="booking-field">
+                            <label for="roomType">Room Type:</label>
+                            <select id="roomType">
+                                <option value="">All Rooms</option>
+                                <option value="single">Single Room</option>
+                                <option value="double">Double Room</option>
+                                <option value="suite">Suite</option>
+                                <option value="deluxe">Deluxe</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="booking-field">
+                            <label for="priceRange">Price Range:</label>
+                            <select id="priceRange">
+                                <option value="">All Prices</option>
+                                <option value="0-500000">Under 500,000</option>
+                                <option value="500000-1000000">500,000 - 1,000,000</option>
+                                <option value="1000000+">Over 1,000,000</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="booking-field">
+                            <label for="guests">Guests:</label>
+                            <select id="guests">
+                                <option value="">Any</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4+ Guests</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rooms Section -->
+        <section class="popular-rooms">
+            <div class="container">
+                <h2>Available Rooms</h2>
+                <div class="rooms-preview">
+                    <!-- Single Room 101 -->
+                    <div class="room-preview" data-type="single" data-price="340000" data-capacity="1">
+                        <div class="room-image">Room</div>
+                        <div class="room-info">
+                            <h4>Single Room 101</h4>
+                            <p>Comfortable room for solo travelers with city view</p>
+                            <div class="room-amenities">
+                                <span class="amenity">WiFi</span>
+                                <span class="amenity">TV</span>
+                                <span class="amenity">Air Conditioning</span>
+                            </div>
+                            <div class="room-price">UGX 340,000/night</div>
+                            <div class="room-actions">
+                                <a href="booking.html?room=101" class="btn-secondary">View Details</a>
+                                <a href="booking.html?room=101" class="btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Room 102 -->
+                    <div class="room-preview" data-type="single" data-price="340000" data-capacity="1">
+                        <div class="room-image">Room</div>
+                        <div class="room-info">
+                            <h4>Single Room 102</h4>
+                            <p>Cozy single room with garden view, quiet and peaceful</p>
+                            <div class="room-amenities">
+                                <span class="amenity">WiFi</span>
+                                <span class="amenity">TV</span>
+                                <span class="amenity">Air Conditioning</span>
+                            </div>
+                            <div class="room-price">UGX 340,000/night</div>
+                            <div class="room-actions">
+                                <a href="booking.html?room=102" class="btn-secondary">View Details</a>
+                                <a href="booking.html?room=102" class="btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Double Room 201 -->
+                    <div class="room-preview" data-type="double" data-price="490000" data-capacity="2">
+                        <div class="room-image">Room</div>
+                        <div class="room-info">
+                            <h4>Double Room 201</h4>
+                            <p>Spacious double room with balcony overlooking the city</p>
+                            <div class="room-amenities">
+                                <span class="amenity">WiFi</span>
+                                <span class="amenity">TV</span>
+                                <span class="amenity">Air Conditioning</span>
+                                <span class="amenity">Mini Bar</span>
+                            </div>
+                            <div class="room-price">UGX 490,000/night</div>
+                            <div class="room-actions">
+                                <a href="booking.html?room=201" class="btn-secondary">View Details</a>
+                                <a href="booking.html?room=201" class="btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Double Room 202 -->
+                    <div class="room-preview" data-type="double" data-price="490000" data-capacity="2">
+                        <div class="room-image">Room</div>
+                        <div class="room-info">
+                            <h4>Double Room 202</h4>
+                            <p>Modern double room with work desk and city view</p>
+                            <div class="room-amenities">
+                                <span class="amenity">WiFi</span>
+                                <span class="amenity">TV</span>
+                                <span class="amenity">Air Conditioning</span>
+                                <span class="amenity">Work Desk</span>
+                            </div>
+                            <div class="room-price">UGX 490,000/night</div>
+                            <div class="room-actions">
+                                <a href="booking.html?room=202" class="btn-secondary">View Details</a>
+                                <button class="btn-primary" disabled>Occupied</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Suite 301 -->
+                    <div class="room-preview" data-type="suite" data-price="750000" data-capacity="4">
+                        <div class="room-image">Room</div>
+                        <div class="room-info">
+                            <h4>Luxury Suite 301</h4>
+                            <p>Premium suite with separate living area and kitchenette</p>
+                            <div class="room-amenities">
+                                <span class="amenity">WiFi</span>
+                                <span class="amenity">TV</span>
+                                <span class="amenity">Air Conditioning</span>
+                                <span class="amenity">Living Room</span>
+                                <span class="amenity">Kitchenette</span>
+                            </div>
+                            <div class="room-price">UGX 750,000/night</div>
+                            <div class="room-actions">
+                                <a href="booking.html?room=301" class="btn-secondary">View Details</a>
+                                <a href="booking.html?room=301" class="btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Deluxe Room 401 -->
+                    <div class="room-preview" data-type="deluxe" data-price="1120000" data-capacity="2">
+                        <div class="room-image">Room</div>
+                        <div class="room-info">
+                            <h4>Deluxe Room 401</h4>
+                            <p>Ultra-luxurious room with ocean view and private jacuzzi</p>
+                            <div class="room-amenities">
+                                <span class="amenity">WiFi</span>
+                                <span class="amenity">TV</span>
+                                <span class="amenity">Air Conditioning</span>
+                                <span class="amenity">Jacuzzi</span>
+                                <span class="amenity">Room Service</span>
+                            </div>
+                            <div class="room-price">UGX 1,120,000/night</div>
+                            <div class="room-actions">
+                                <a href="booking.html?room=401" class="btn-secondary">View Details</a>
+                                <a href="booking.html?room=401" class="btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hotel Jatheo</h3>
+                    <p>Your luxury home away from home</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>123 Hotel Street</p>
+                    <p>+1 234 567 8900</p>
+                    <p>info@jatheohotel.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jatheo Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Room filtering functionality
+        function filterRooms() {
+            const roomType = document.getElementById('roomType').value;
+            const priceRange = document.getElementById('priceRange').value;
+            const guests = document.getElementById('guests').value;
+            
+            const roomCards = document.querySelectorAll('.room-preview');
+            
+            roomCards.forEach(card => {
+                const cardType = card.dataset.type;
+                const cardPrice = parseInt(card.dataset.price);
+                const cardCapacity = parseInt(card.dataset.capacity);
+                
+                let show = true;
+                
+                // Filter by room type
+                if (roomType && cardType !== roomType) {
+                    show = false;
+                }
+                
+                // Filter by price range
+                if (priceRange !== '') {
+                    if (priceRange === '0-500000' && cardPrice >= 500000) show = false;
+                    if (priceRange === '500000-1000000' && (cardPrice < 500000 || cardPrice >= 1000000)) show = false;
+                    if (priceRange === '1000000+' && cardPrice < 1000000) show = false;
+                }
+                
+                // Filter by guest capacity
+                if (guests !== '' && cardCapacity < parseInt(guests)) {
+                    show = false;
+                }
+                
+                card.style.display = show ? 'block' : 'none';
+            });
+        }
+        
+        // Add event listeners
+        document.getElementById('roomType').addEventListener('change', filterRooms);
+        document.getElementById('priceRange').addEventListener('change', filterRooms);
+        document.getElementById('guests').addEventListener('change', filterRooms);
+    </script>
+</body>
+</html>
